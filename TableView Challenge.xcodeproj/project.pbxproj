@@ -14,13 +14,13 @@
 		DE29879518DE1F50001B9DE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE29879418DE1F50001B9DE5 /* main.m */; };
 		DE29879918DE1F50001B9DE5 /* CRLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE29879818DE1F50001B9DE5 /* CRLAppDelegate.m */; };
 		DE29879C18DE1F50001B9DE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE29879A18DE1F50001B9DE5 /* Main.storyboard */; };
-		DE29879F18DE1F50001B9DE5 /* CRLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE29879E18DE1F50001B9DE5 /* CRLViewController.m */; };
 		DE2987A118DE1F50001B9DE5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE2987A018DE1F50001B9DE5 /* Images.xcassets */; };
 		DE2987A818DE1F50001B9DE5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE2987A718DE1F50001B9DE5 /* XCTest.framework */; };
 		DE2987A918DE1F50001B9DE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE29878818DE1F50001B9DE5 /* Foundation.framework */; };
 		DE2987AA18DE1F50001B9DE5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE29878C18DE1F50001B9DE5 /* UIKit.framework */; };
 		DE2987B218DE1F50001B9DE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE2987B018DE1F50001B9DE5 /* InfoPlist.strings */; };
 		DE2987B418DE1F50001B9DE5 /* TableView_ChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2987B318DE1F50001B9DE5 /* TableView_ChallengeTests.m */; };
+		DE2987BF18DE1F86001B9DE5 /* CRLChallengeTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2987BE18DE1F86001B9DE5 /* CRLChallengeTVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		DE29879718DE1F50001B9DE5 /* CRLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRLAppDelegate.h; sourceTree = "<group>"; };
 		DE29879818DE1F50001B9DE5 /* CRLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRLAppDelegate.m; sourceTree = "<group>"; };
 		DE29879B18DE1F50001B9DE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DE29879D18DE1F50001B9DE5 /* CRLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRLViewController.h; sourceTree = "<group>"; };
-		DE29879E18DE1F50001B9DE5 /* CRLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRLViewController.m; sourceTree = "<group>"; };
 		DE2987A018DE1F50001B9DE5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DE2987A618DE1F50001B9DE5 /* TableView ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TableView ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE2987A718DE1F50001B9DE5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		DE2987AF18DE1F50001B9DE5 /* TableView ChallengeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableView ChallengeTests-Info.plist"; sourceTree = "<group>"; };
 		DE2987B118DE1F50001B9DE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DE2987B318DE1F50001B9DE5 /* TableView_ChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableView_ChallengeTests.m; sourceTree = "<group>"; };
+		DE2987BD18DE1F86001B9DE5 /* CRLChallengeTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRLChallengeTVC.h; sourceTree = "<group>"; };
+		DE2987BE18DE1F86001B9DE5 /* CRLChallengeTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRLChallengeTVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,9 +114,9 @@
 			children = (
 				DE29879718DE1F50001B9DE5 /* CRLAppDelegate.h */,
 				DE29879818DE1F50001B9DE5 /* CRLAppDelegate.m */,
+				DE2987BD18DE1F86001B9DE5 /* CRLChallengeTVC.h */,
+				DE2987BE18DE1F86001B9DE5 /* CRLChallengeTVC.m */,
 				DE29879A18DE1F50001B9DE5 /* Main.storyboard */,
-				DE29879D18DE1F50001B9DE5 /* CRLViewController.h */,
-				DE29879E18DE1F50001B9DE5 /* CRLViewController.m */,
 				DE2987A018DE1F50001B9DE5 /* Images.xcassets */,
 				DE29878F18DE1F50001B9DE5 /* Supporting Files */,
 			);
@@ -250,9 +250,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE2987BF18DE1F86001B9DE5 /* CRLChallengeTVC.m in Sources */,
 				DE29879918DE1F50001B9DE5 /* CRLAppDelegate.m in Sources */,
 				DE29879518DE1F50001B9DE5 /* main.m in Sources */,
-				DE29879F18DE1F50001B9DE5 /* CRLViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

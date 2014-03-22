@@ -1,5 +1,5 @@
 //
-//  CRLViewController.h
+//  CRLChallengeTVC.h
 //  TableView Challenge
 //
 //  Created by Carolyn Lea on 3/22/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CRLViewController : UIViewController
+@interface CRLChallengeTVC : UITableViewController
 
 @end
